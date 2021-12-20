@@ -12,7 +12,7 @@ if name == "Nadia" or name == "Sydney":
     name = "Nadia"
 if name in ["Nadia", "Sydney"]:
     print("Your name is either Nadia or Sydney.")
- statement = False
+statement = False
 another_statement = True
 if statement is True:
     # do something

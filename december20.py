@@ -8,13 +8,13 @@ def squareArea(side):
 
 def circleAreaByDiameter(diameter):
     # modify this function to return the area of a circle given the Diameter
-    area = diameter * 3.14 * diameter / 2 * 2 #incorrect formula
+    area = 3.14 * diameter  # incorrect formula
     return area
 
 
 def equilateralTriangleArea(side):
     # modify this function to return the area of an Equilateral Triangle given one side
-    area = side * side * side #incorrect formula
+    area = √3 / 4 * side * side  # incorrect formula
     return area
 
 
@@ -24,23 +24,23 @@ def rectangleArea(sidea, sideb):
     return area
 
 
-def generalTriangleArea(side):
-    area = 1/2 * side * side #incorrect formula
+def generalTriangleArea(sidea, sideb):
+    area = 1/2 * sidea * sideb  # incorrect formula
     return area
 
 
 def squareParameter(side):
-    area = side * side #incorrect formula
+    area = side * side * side * side  # incorrect formula
     return area
 
 
 def circleCircumferance(radius):
-    area = 3.14 * radius * radius #incorrect formula
+    area = 2 * 3.14 * radius  # incorrect formula
     return area
 
 
-def cylinderVolume(radius):
-    area = 2 * 3.14 * radius * radius + 2 * 3.14 * radius * radius #incorrect formula
+def cylinderVolume(radius, height):
+    area = 3.14 * radius * radius * height # incorrect formula
     return area
 
 

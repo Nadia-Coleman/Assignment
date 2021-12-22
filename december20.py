@@ -30,7 +30,7 @@ def generalTriangleArea(sidea, sideb):
 
 
 def squareParameter(side):
-    area = side * side * side * side  # incorrect formula
+    area = 4 * side  # incorrect formula
     return area
 
 
@@ -56,11 +56,15 @@ def main():
     print("The area of an Equilateral Triangle with one side = to 4 is: ",
           equilateralTriangleArea(4))
     print("The bellow answer should be 32")
-    print("The area of an rectangle with one side = to 4 and another = to 8: ",
+    print("The area of a rectangle with one side = to 4 and another = to 8: ",
           rectangleArea(8, 4))
+    print("The answer below should be 16.")
     print("The area of a general triangle with sidea = to 4 and sideb = to 7 is: ", generalTriangleArea(4,8))
+    print("The answer below should be 36.")
     print("The area of a square parameter with side = to 9 is: ", squareParameter(9))
+    print("The answer bellow should be 31.4.")
     print("The circumference of a circle with radius = to 5 is: ", circleCircumferance(5))
+    print("The answer bellow should be 1005.")
     print("The volume of a cylinder with radius = to 8 and height = to 5 is: ", cylinderVolume(8,5))
 
 

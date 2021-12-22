@@ -14,7 +14,7 @@ def circleAreaByDiameter(diameter):
 
 def equilateralTriangleArea(side):
     # modify this function to return the area of an Equilateral Triangle given one side
-    area = √3 / 4 * side * side  # incorrect formula
+    area = .43 * side * side  # incorrect formula
     return area
 
 
@@ -60,7 +60,7 @@ def main():
           rectangleArea(8, 4))
     print("The area of a general triangle with sidea = to 4 and sideb = to 7 is: ", generalTriangleArea(4,8))
     print("The area of a square parameter with side = to 9 is: ", squareParameter(9))
-    print("The circumference of a circle with radius = to 5 is: ", circleCircumference(5))
+    print("The circumference of a circle with radius = to 5 is: ", circleCircumferance(5))
     print("The volume of a cylinder with radius = to 8 and height = to 5 is: ", cylinderVolume(8,5))
 
 

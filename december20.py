@@ -64,7 +64,7 @@ def main():
     print("The area of a square parameter with side = to 9 is: ", squareParameter(9))
     print("The answer bellow should be 31.4.")
     print("The circumference of a circle with radius = to 5 is: ", circleCircumferance(5))
-    print("The answer bellow should be 1005.")
+    print("The answer bellow should be 1005 when rounded.")
     print("The volume of a cylinder with radius = to 8 and height = to 5 is: ", cylinderVolume(8,5))
 
 

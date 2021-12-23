@@ -28,15 +28,14 @@ hello = "hello"
 
 print(one + two + hello)
 # change this code
-mystring = None
-myfloat = None
-myint = None
+mystring = "hello"
+myfloat = 10.0
+myint = 20
 
 # testing code
 if mystring == "hello":
     print("String: %s" % mystring)
-if isinstance(myfloat, float) and myfloat == 10.0:
-    print("Float: %f" % myfloat)
-if isinstance(myint, int) and myint == 20:
-    print("Integer: %d" % myint)
-    
+if isinstance(myfloat, float) and float == 10.0:
+    print("Float: %f" % float)
+if isinstance(myint, int) and int == 20:
+    print("Integer: %d" % int)

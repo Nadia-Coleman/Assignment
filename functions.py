@@ -1,15 +1,15 @@
-block_head:
- 1st block line
-    2nd block line
-    ...
-    def my_function():
+# block_head:
+#  1st block line
+#     2nd block line
+#     ...
+def my_function():
     print("Hello From My Function!")
-    def my_function_with_args(username, greeting):
+def my_function_with_args(username, greeting):
     print("Hello, %s , From My Function!, I wish you %s" %
-          (username, greeting))
-  def sum_two_numbers(a, b):
+        (username, greeting))
+def sum_two_numbers(a, b):
     return a + b
-      # Define our 3 functions
+    # Define our 3 functions
 def my_function():
     print("Hello From My Function!")
 
